@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+/* 共通部分
+-----------------------------*/
+html {
+	font-size: 100%;
+	scroll-behavior: smooth;
+}
+body {
+	font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+	line-height: 1.7;
+	color: #432;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+.logo {
+	width: 200px;
+	margin-left:10px;
+}
+.wrapper {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 4%;
+}	
+
+/* Background
+-----------------------------*/
+.big-bg {
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+#home {
+	background-image: url("../image/background/photo1.jpg");
+	min-height: 100vh;
+	background-color: rgba(255,255,255,0.5);
+	background-blend-mode: lighten;
+}
+#tokyo {
+	background-image: url("../image/tokyo/tokyobill.jpg");
+	height: 300px;
+	margin-bottom: 40px;
+	background-color: rgba(255,255,255,0.5);
+	background-blend-mode: lighten;
+}
+#osaka {
+	background-image: url("../image/osaka/header.jpg");
+	height: 300px;
+	margin-bottom: 40px;
+	background-color: rgba(255,255,255,0.5);
+	background-blend-mode: lighten;
+}
+#kagawa {
+	background-image: url("../image/kagawa/21270031.jpg");
+	height: 300px;
+	margin-bottom: 40px;
+	background-color: rgba(255,255,255,0.5);
+	background-blend-mode: lighten;
+}
+
+/* INDEX
+-----------------------------*/
+.page-header h1 {
+	margin: 0;
+}
+.page-header header {
+	display: inline-block;
+}
+.home-content {
+	text-align: center;
+	margin-top: 100px;
+}
+.home-content p {
+	font-size: 1.75rem;
+}
+.page-title {
+	font-size: 5rem;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'Koulen', serif;
+}
+.main-nav {
+	display: flex;
+	list-style: none;
+	margin-top: 50px;
+	justify-content: center;
+	
+}
+.scrollBox {
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+    font-weight: bold;
+
+}
+.scrollBox a {
+    text-decoration: none;
+    color: #432;
+}
+.scrollBox ol {
+  color: #1e366a;
+  border-top: solid #AC2B2F 1px;/*上のボーダー*/
+  border-bottom: solid #AC2B2F 1px;/*下のボーダー*/
+  padding: 0.5em 0 0.5em 1.5em;
+}
+
+/* BUTTON
+-----------------------------*/
+.button {
+	font-size: 1.375rem;
+	color: #e8383d;
+	background-color: #fffffc;
+	border-radius: 10px;
+	padding: 18px 32px;
+}
+.button:hover {
+	background: #ffa0a0;
+}
+
+.mnav {
+	margin: 0 auto;
+}
+
+/* Subtitle
+-----------------------------*/
+#tokyo .page-title {
+	text-align: center;
+	color: #420000;
+}
+#osaka .page-title {
+	text-align: center;
+	color: #420000;
+}
+#kagawa .page-title {
+	text-align: center;
+	color: #420000;
+	border-bottom: 0;
+	margin: 0;
+}
+header h2 {
+	font-size: 2.5rem;
+	margin: 0 0 20px;
+	border-bottom: 2px #AC2B2F solid;
+}
+.imghover img {
+	max-width: 70%;
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.imghover :hover img {
+	opacity: .5;
+}
+
+.subtitle h3 {
+	color: #420000;
+	margin: 10px 0 0;
+}
+.subtitle h3:hover {
+	text-decoration: underline;
+}
+.subtitle p {
+	color: #787878;
+	font-size: 0.9rem;
+	margin: 0 0 20px;
+}
+
+/* AIRTICLE-LIST
+-----------------------------*/
+article {
+	width: 74%;
+}
+
+/* AIRTICLE
+-----------------------------*/
+article img {
+	margin: 10px 0 10px;
+}
+article h3 {
+	margin-top: 10px;
+}
+article p {
+	margin: 0;
+}
+
+
+/* ASIDE
+-----------------------------*/
+aside {
+	width: 22%;
+}
+.article-list {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.sub-title {
+	font-size: 1.25rem;
+	padding: 0 8px 8px;
+	border-bottom: 2px #AC2B2F solid;
+	font-weight: normal;
+	margin: 26px 0 0;
+}
+aside p {
+	padding: 12px 10px;
+	margin: 0;
+}
+.sub-menu {
+	margin-bottom: 60px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.sub-menu li {
+	border-bottom: 1px #ddd solid;
+}
+.sub-menu a {
+	color: #420000;
+	padding: 10px;
+	display: block;
+}
+
+/* FOOTER
+-----------------------------*/
+footer {
+	background:#AC2B2F;
+	text-align: center;
+	padding: 25px 0;
+}
+footer p {
+	color: #ffffff;
+	margin: 0;
+}
