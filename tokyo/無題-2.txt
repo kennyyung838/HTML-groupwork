@@ -1,0 +1,118 @@
+/*上に行くボタン*/
+#pageTop{
+  width: 90px;
+  height: 90px;
+  position: fixed;
+  right: 10px;
+  bottom: 0;
+  opacity: 0;
+  transition: all 1s ease;
+}
+#pageTop.show {
+    opacity: 0.6;
+    transform: none;
+ }
+#pageTop a{
+  position: relative;
+  display: block;
+  width: 90px;
+  height: 90px;
+  text-decoration: none;
+}
+#pageTop a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 30px;
+  color: #A12568;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: -40px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a::after{
+  content: 'TOP';
+  font-size: 18px;
+  position: absolute;
+  top: 45px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  color: #A12568;
+}
+ 
+#pageTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+ 
+
+#pageTop i {
+  padding-top: 6px
+}
+
+#pageTop.show {
+    opacity: 0.6;
+    transform: none;
+ }
+
+ 
+
+#pageTop a {
+  display: block;
+  z-index: 999;
+  padding: 8px 10px 20px 10px;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  background-color: #f7b5c3;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+ 
+
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 30px;
+  color: #A12568;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: -40px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a::after{
+  content: 'TOP';
+  font-size: 18px;
+  position: absolute;
+  top: 45px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  color: #A12568;
+}

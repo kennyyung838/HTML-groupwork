@@ -10,7 +10,6 @@ body {
 	font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
 	line-height: 1.7;
 	color: #432;
-	margin: 0;
 }
 a {
 	text-decoration: none;
@@ -63,7 +62,7 @@ img {
 	background-blend-mode: lighten;
 }
 
-/* INDEX
+/* Home
 -----------------------------*/
 .page-header h1 {
 	margin: 0;
@@ -91,6 +90,7 @@ img {
 	justify-content: center;
 	
 }
+
 .scrollBox {
     width: 100%;
     max-width: 800px;
@@ -98,15 +98,22 @@ img {
     font-weight: bold;
 
 }
+
 .scrollBox a {
     text-decoration: none;
     color: #432;
+
+
 }
+
 .scrollBox ol {
   color: #1e366a;
   border-top: solid #AC2B2F 1px;/*上のボーダー*/
   border-bottom: solid #AC2B2F 1px;/*下のボーダー*/
   padding: 0.5em 0 0.5em 1.5em;
+
+
+
 }
 
 /* BUTTON
@@ -144,7 +151,7 @@ img {
 }
 header h2 {
 	font-size: 2.5rem;
-	margin: 0 0 20px;
+	margin-bottom: 0 0 20px;
 	border-bottom: 2px #AC2B2F solid;
 }
 .imghover img {
@@ -167,7 +174,7 @@ header h2 {
 .subtitle p {
 	color: #787878;
 	font-size: 0.9rem;
-	margin: 0 0 20px;
+	margin-bottom: 0 0 20px;
 }
 
 /* AIRTICLE-LIST
@@ -187,7 +194,6 @@ article h3 {
 article p {
 	margin: 0;
 }
-
 
 /* ASIDE
 -----------------------------*/
@@ -235,4 +241,53 @@ footer {
 footer p {
 	color: #ffffff;
 	margin: 0;
+}
+
+
+/*上に行くボタン*/
+#pageTop{
+  width: 90px;
+  height: 90px;
+  position: fixed;
+  right: 10px;
+  bottom: 0;
+  opacity: 0;
+  transition: all 1s ease;
+}
+#pageTop.show {
+    opacity: 0.7;
+    transform: none;
+ }
+
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+  
+  #pageTop a::before{
+    display: block;
+  z-index: 999;
+  padding: 8px 10px 20px 10px;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  background-color: #f7b5c3;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+
+}
+#pageTop a::after{
+    display: block;
+  z-index: 999;
+  padding: 8px 10px 20px 10px;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  background-color: #f7b5c3;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
 }
