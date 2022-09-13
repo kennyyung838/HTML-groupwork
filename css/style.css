@@ -86,7 +86,7 @@ img {
 }
 
 .index-img{
-	max-width: 300px;
+	max-width: 600px;
 	position: relative;
     top: 50%; left:50%;
     transform: translateY(0%) translateX(-50%);
@@ -121,8 +121,8 @@ img {
 	border-radius: 50%;
 	padding: 15px;
 	margin: 10px;
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	font-size: 18px;
 	display: flex;
 	justify-content: center;
