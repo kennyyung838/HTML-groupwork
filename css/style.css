@@ -97,7 +97,7 @@ img {
 }
 
 .Sindex{
-	margin-left: 50px;
+	margin-left: 100px;
 	margin-right: 50px;
 	margin-bottom: 20px;
 	max-width: 300px;
@@ -238,10 +238,10 @@ img {
 	flex-direction: column;
 }
 
-.index-imghover{
+/*.index-imghover{*/
 
 
-}
+
 /* Subtitle
 -----------------------------*/
 #tokyo .page-title {
