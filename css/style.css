@@ -78,54 +78,60 @@ img {
 .index-logo {
 	width: 30%;
 	position: relative;
-	margin-top: 75px;
+	margin-top: 200px;
 }
 
 .index-center {
 	text-align: center;
 }
 
-.index-img{
+.index-img {
 	position: relative;
-    top: 50%; left:50%;
-    transform: translateY(0%) translateX(-50%);
+	top: 50%;
+	left: 50%;
+	transform: translateY(0%) translateX(-50%);
 }
 
-.index-content{
+.index-content {
 	display: flex;
 	color: #ddd;
 }
 
-.Sindex{
+.Sindex {
 	margin-left: 100px;
 	margin-right: 50px;
 	margin-bottom: 20px;
 	max-width: 300px;
 }
 
-.Mindex{
+.Mindex {
 	max-width: 700px;
-	font-size:large ;
+	font-size: large;
 }
+
+.index-kagawa-button {
+	margin-top: 10px;
+}
+
 /*button*/
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-  }
-  
-  *:focus,
-  *:active {
+}
+
+*:focus,
+*:active {
 	outline: none !important;
 	-webkit-tap-highlight-color: transparent;
-  }
-  
-  .wrapperA {
+}
+
+.wrapperA {
 	display: inline-flex;
 	list-style: none;
-  }
-  
-  .wrapperA .icon {
+}
+
+.wrapperA .icon {
 	position: relative;
 	background: #ffffff;
 	border-radius: 50%;
@@ -142,9 +148,9 @@ img {
 	cursor: pointer;
 	transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	margin: 50px;
-  }
-  
-  .wrapperA .tooltip {
+}
+
+.wrapperA .tooltip {
 	position: absolute;
 	top: 0;
 	font-size: 14px;
@@ -156,9 +162,9 @@ img {
 	opacity: 0;
 	pointer-events: none;
 	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapperA .tooltip::before {
+}
+
+.wrapperA .tooltip::before {
 	position: absolute;
 	content: "";
 	height: 8px;
@@ -168,40 +174,40 @@ img {
 	left: 50%;
 	transform: translate(-50%) rotate(45deg);
 	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapperA .icon:hover .tooltip {
+}
+
+.wrapperA .icon:hover .tooltip {
 	top: -45px;
 	opacity: 1;
 	visibility: visible;
 	pointer-events: auto;
-  }
-  
-  .wrapperA .icon:hover span,
-  .wrapperA .icon:hover .tooltip {
+}
+
+.wrapperA .icon:hover span,
+.wrapperA .icon:hover .tooltip {
 	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-  }
-  
-  .wrapperA .tokyo:hover,
-  .wrapperA .tokyo:hover .tooltip,
-  .wrapperA .tokyo:hover .tooltip::before {
+}
+
+.wrapperA .tokyo:hover,
+.wrapperA .tokyo:hover .tooltip,
+.wrapperA .tokyo:hover .tooltip::before {
 	background: #4d5f99;
 	color: #ffffff;
-  }
+}
 
-  .wrapperA .osaka:hover,
-  .wrapperA .osaka:hover .tooltip,
-  .wrapperA .osaka:hover .tooltip::before {
+.wrapperA .osaka:hover,
+.wrapperA .osaka:hover .tooltip,
+.wrapperA .osaka:hover .tooltip::before {
 	background: #be6345;
 	color: #ffffff;
-  }
+}
 
-  .wrapperA .kagawa:hover,
-  .wrapperA .kagawa:hover .tooltip,
-  .wrapperA .kagawa:hover .tooltip::before {
+.wrapperA .kagawa:hover,
+.wrapperA .kagawa:hover .tooltip,
+.wrapperA .kagawa:hover .tooltip::before {
 	background: #4c854e6f;
 	color: #ffffff;
-  }
+}
 
 /*上に行くボタン*/
 
@@ -232,13 +238,14 @@ img {
 
 /* BUTTON
 -----------------------------*/
-.main-nav{
+.main-nav {
 	position: relative;
 	display: flex;
 	flex-direction: column;
+	margin-top: 500px;
 }
 
-/*.index-imghover{*/
+/*.bgloimghover{*/
 
 
 
