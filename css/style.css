@@ -98,7 +98,7 @@ img {
 }
 
 .Sindex {
-	margin-left: 140px;
+	margin-left: 130px;
 	margin-right: 50px;
 	margin-bottom: 20px;
 	max-width: 300px;
@@ -108,7 +108,8 @@ img {
 .Mindex {
 	max-width: 700px;
 	margin-top: 30px;
-	font-size: larger;
+	font-size: 1.8rem;
+	min-width: 50%;
 }
 
 .index-kagawa-button {
@@ -193,21 +194,21 @@ img {
 .wrapperA .tokyo:hover,
 .wrapperA .tokyo:hover .tooltip,
 .wrapperA .tokyo:hover .tooltip::before {
-	background: #4d5f99;
+	background: #7ecaf0;
 	color: #ffffff;
 }
 
 .wrapperA .osaka:hover,
 .wrapperA .osaka:hover .tooltip,
 .wrapperA .osaka:hover .tooltip::before {
-	background: #be6345;
+	background: #e88260;
 	color: #ffffff;
 }
 
 .wrapperA .kagawa:hover,
 .wrapperA .kagawa:hover .tooltip,
 .wrapperA .kagawa:hover .tooltip::before {
-	background: #4c854e6f;
+	background: #52d28c;
 	color: #ffffff;
 }
 
