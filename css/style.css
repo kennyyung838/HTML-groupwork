@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-/* 蜈ｱ騾夐Κ蛻?
+/* 共通部分
 -----------------------------*/
 html {
 	font-size: 100%;
@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	font-family: "Yu Gothic Medium", "貂ｸ繧ｴ繧ｷ繝?繧ｯ Medium", YuGothic, "貂ｸ繧ｴ繧ｷ繝?繧ｯ菴?", "繝偵Λ繧ｮ繝手ｧ偵ざ Pro W3", sans-serif;
+	font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
 	line-height: 1.7;
 	color: #432;
 }
@@ -540,7 +540,7 @@ img {
 	color: #ffffff;
 }
 
-/*荳翫↓陦後￥繝懊ち繝ｳ*/
+/*上に行くボタン*/
 
 .scrollBox {
 	width: 100%;
@@ -560,9 +560,9 @@ img {
 .scrollBox ol {
 	color: #1e366a;
 	border-top: solid #AC2B2F 1px;
-	/*荳翫?ｮ繝懊?ｼ繝繝ｼ*/
+	/*上のボーダー*/
 	border-bottom: solid #AC2B2F 1px;
-	/*荳九?ｮ繝懊?ｼ繝繝ｼ*/
+	/*下のボーダー*/
 	padding: 0.5em 0 0.5em 1.5em;
 
 }
@@ -711,7 +711,7 @@ footer p {
 }
 
 
-/*荳翫↓陦後￥繝懊ち繝ｳ*/
+/*上に行くボタン*/
 #pageTop {
 	width: 90px;
 	height: 90px;
