@@ -582,17 +582,18 @@ img {
 
 /* Subtitle
 -----------------------------*/
-#tokyo .page-title h1{
+#tokyo .page-title {
 	text-align: center;
 	color: #420000;
 	border-bottom: 0;
 	margin: 0;
-	font-size: 2.5rem;
 }
 
 #osaka .page-title {
 	text-align: center;
 	color: #420000;
+	border-bottom: 0;
+	margin: 0;
 }
 
 #kagawa .page-title {
@@ -644,6 +645,7 @@ article {
 -----------------------------*/
 article img {
 	margin: 10px 0 10px;
+	max-width: 500px;
 }
 
 article h3 {
