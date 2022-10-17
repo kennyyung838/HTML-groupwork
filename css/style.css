@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-/* ‹¤’Ê•”•ª
+/* å…±é€šéƒ¨åˆ†
 -----------------------------*/
 html {
 	font-size: 100%;
@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	font-family: "Yu Gothic Medium", "ŸàƒSƒVƒbƒN Medium", YuGothic, "ŸàƒSƒVƒbƒN‘Ì", "ƒqƒ‰ƒMƒmŠpƒS Pro W3", sans-serif;
+	font-family: "Yu Gothic Medium", "æ¸¸ã‚´ã‚·ãƒƒã‚¯ Medium", YuGothic, "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", "ãƒ’ãƒ©ã‚®ãƒè§’ã‚´ Pro W3", sans-serif;
 	line-height: 1.7;
 	color: #432;
 }
@@ -540,7 +540,7 @@ img {
 	color: #ffffff;
 }
 
-/*ã‚És‚­ƒ{ƒ^ƒ“*/
+/*ä¸Šã«è¡Œããƒœã‚¿ãƒ³*/
 
 .scrollBox {
 	width: 100%;
@@ -560,9 +560,9 @@ img {
 .scrollBox ol {
 	color: #1e366a;
 	border-top: solid #AC2B2F 1px;
-	/*ã‚Ìƒ{[ƒ_[*/
+	/*ä¸Šã®ãƒœãƒ¼ãƒ€ãƒ¼*/
 	border-bottom: solid #AC2B2F 1px;
-	/*‰º‚Ìƒ{[ƒ_[*/
+	/*ä¸‹ã®ãƒœãƒ¼ãƒ€ãƒ¼*/
 	padding: 0.5em 0 0.5em 1.5em;
 
 }
@@ -582,11 +582,12 @@ img {
 
 /* Subtitle
 -----------------------------*/
-#tokyo .page-title {
+#tokyo .page-title h1{
 	text-align: center;
 	color: #420000;
 	border-bottom: 0;
 	margin: 0;
+	font-size: 2.5rem;
 }
 
 #osaka .page-title {
@@ -711,7 +712,7 @@ footer p {
 }
 
 
-/*ã‚És‚­ƒ{ƒ^ƒ“*/
+/*ä¸Šã«è¡Œããƒœã‚¿ãƒ³*/
 #pageTop {
 	width: 90px;
 	height: 90px;
