@@ -662,6 +662,10 @@ aside {
 	width: 22%;
 }
 
+aside img {
+	margin-top: 12px;
+}
+
 .article-list {
 	display: flex;
 	justify-content: space-between;
